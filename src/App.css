@@ -1,0 +1,7 @@
+/* Button */
+
+button {
+  column-gap: 8px !important;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}

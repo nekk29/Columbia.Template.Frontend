@@ -1,0 +1,48 @@
+export const PERMISSIONS = {
+  APPLICATIONS: {
+    CREATE: 'applications.create',
+    DELETE: 'applications.delete',
+    EDIT: 'applications.edit',
+    SEARCH: 'applications.search',
+    EXPORT: 'applications.export',
+  },
+  MODULES: {
+    CREATE: 'modules.create',
+    DELETE: 'modules.delete',
+    EDIT: 'modules.edit',
+    SEARCH: 'modules.search',
+    EXPORT: 'modules.export',
+    CREATE_ACTIONS: 'actions.create',
+    DELETE_ACTIONS: 'actions.delete',
+    EDIT_ACTIONS: 'actions.edit',
+    SEARCH_ACTIONS: 'actions.search',
+    EXPORT_ACTIONS: 'actions.export',
+  },
+  MENU_OPTIONS: {
+    CREATE: 'menu-options.create',
+    DELETE: 'menu-options.delete',
+    EDIT: 'menu-options.edit',
+    SEARCH: 'menu-options.search',
+    EXPORT: 'menu-options.export',
+  },
+  ROLES: {
+    CREATE: 'roles.create',
+    DELETE: 'roles.delete',
+    EDIT: 'roles.edit',
+    SEARCH: 'roles.search',
+    EXPORT: 'roles.export',
+    PERMISSIONS: 'roles.permissions',
+  },
+  USERS: {
+    CREATE: 'users.create',
+    DELETE: 'users.delete',
+    EDIT: 'users.edit',
+    SEARCH: 'users.search',
+    EXPORT: 'users.export',
+  },
+  SETTINGS: {
+    EDIT: 'settings.edit',
+    SEARCH: 'settings.search',
+    EXPORT: 'settings.export',
+  },
+}

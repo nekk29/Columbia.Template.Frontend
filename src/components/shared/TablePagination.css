@@ -1,0 +1,15 @@
+.table-pagination {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.table-pagination p,
+.table-pagination nav {
+  width: fit-content !important;
+}
+
+.table-pagination div:has(> button[aria-haspopup="listbox"]) {
+  width: 80px !important;
+  min-width: 80px !important;
+  max-width: 80px !important;
+}

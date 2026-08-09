@@ -1,0 +1,14 @@
+.app-toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.app-toast .close-button {
+  padding: 0px !important;
+}
+
+.app-toast div[role="alert"]{
+  background-color: var(--color-background-50); 
+}
